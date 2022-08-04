@@ -1,0 +1,13 @@
+O Spring Boot é o mais popular Framework de para desenvolvimento de microsserviços. Ele fornece vários projetos de extensão no Spring Cloud, para criar o ecossistema necessário para os microsserviços. Os microsserviços permitem que grandes sistemas sejam construídos a partir de vários componentes de colaboração.
+O Spring Boot nos fornece mais produtividade nos projetos, cuidando da infraestrutura.Entre seus benefícios estão:
+- Leve: o Spring é leve no uso de recursos, com o Spring Framework básico custando apenas 2 MB de armazenamento.
+- Escalável: a interface de gerenciamento de transações do Spring pode escalar tanto para uma transação local em um único banco de dados até transações globais usando o módulo JTA
+- Tratamento de exceções: o tratamento de exceções é fácil graças aos abundantes recursos da API para lidar com exceções em cada módulo.
+- Arquitetura em camadas: permite que você use as partes do programa necessárias e descarte o resto.
+- POJO habilitado: Plain Old Java Object Programming permite teste e integração contínuos.
+- Código aberto: gratuito para todos e sem dependência de fornecedor.
+- Inversão de controle (IOC): Obtém acoplamento fraco via IOC, permitindo que os objetos forneçam suas dependências a outros objetos, em vez de objetos dependentes.
+- Orientado a Aspectos (AOP): O Spring oferece suporte à programação orientada a Aspectos, um paradigma que separa a lógica de negócios do aplicativo dos serviços do sistema.
+Novas dependências são adicionadas no arquivo de configuração, de acordo com qual tipo de projeto foi selecionado, no caso Maven é no arquivo pom.xml, enquanto no Gradle as dependências ficam no build.gradle.
+A Spring Tools Suite (STS) é uma coleção de ferramentas para desenvolvimento de aplicações Spring. Por ser baseada na IDE Eclipse, acredito que seja melhor trabalhar com a STS no Eclipse, mas ela também está disponível para VIsual Studio Code e Theia IDE.
+O Spring Initializr fornece uma API extensa para criar projetos JVM, você pode configurar facilmente seu projeto através do Spring Initializr, tendo várias opções de configuração e uma lista de dependências frequentes que podem ser adicionadas.
